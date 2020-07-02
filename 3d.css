@@ -1,0 +1,57 @@
+.bTop{
+	position: absolute; left: 50%; top: -19.5%;
+	transform: translate(-30%, -3%);
+	display: flex; z-index: 1;
+	
+}
+.bTop div{
+	padding: 150px;
+}
+.bTop a{text-decoration: none; color: red; text-shadow: 1px 1px 3px blue;}
+.bTop p{
+	margin: 0; font-size: 10px; 
+	position: inherit; left: inherit; top: inherit; transform: inherit;
+	animation: threeD 20s linear infinite alternate; z-index: -1;
+}
+@keyframes threeD{
+	0%{transform: translate(-50%, -3%) scale(0); z-index: -1;}
+	10%{transform: translate(-50%, -3%) scale(0); z-index: -1;}
+
+	11%{transform: translate(-50%, -3%) scale(0); z-index: -1;}
+	12%{transform: translate(-50%, -3%) scale(1.0); z-index: -1;}
+	15%{transform: translate(-50%, -3%) scale(1.1); z-index: -1;}
+	16%{transform: translate(-50%, -3%) scale(1.0); z-index: -1;}
+	17%{transform: translate(-50%, -3%) scale(1.0); z-index: -1;}
+	20%{transform: translate(-50%, -3%) scale(1.1); z-index: -1;}
+	
+
+	30%{transform: translate(-50%, -3%) scale(1.0) rotate(360deg); z-index: -1;}
+
+	32%{transform: translate(-50%, -3%) scale(3.0); z-index: -1;}
+	42%{transform: translate(-50%, -3%) scale(3.1); z-index: -1;}
+	45%{transform: translate(-50%, -3%) scale(3.0); z-index: -1;}
+	46%{transform: translate(-50%, -3%) scale(3.0); z-index: -1;}
+	47%{transform: translate(-50%, -3%) scale(3.1); z-index: -1;}
+	50%{transform: translate(-50%, -3%) scale(3.0); z-index: -1;}
+
+	60%{transform: translate(-50%, -3%) scale(3.0) rotate(360deg); z-index: -1;}
+	
+	61%{transform: translate(-50%, -3%) scale(3.0); z-index: -1;}
+	65%{transform: translate(-50%, -3%) scale(3.0); z-index: -1;}
+	70%{transform: translate(-50%, -3%) scale(7) rotate(1080deg); z-index: -1;}
+	80%{transform: translate(-50%, -3%) scale(7) rotate(1080deg); z-index: -1;}
+	80.1%{transform: translate(-50%, -3%) scale(7) rotate(1080deg); z-index: -1;}
+	90%{transform: translate(-50%, -3%) scale(7); z-index: -1;}
+	93%{transform: translate(-50%, -3%) scale(0); z-index: -1;}
+	94%{transform: translate(-50%, -3%) scale(7); z-index: -1;}
+	95%{transform: translate(-50%, -3%) scale(0); z-index: -1;}
+	96%{transform: translate(-50%, -3%) scale(7); z-index: -1;}
+	97%{transform: translate(-50%, -3%) scale(0); z-index: -1;}
+	98%{transform: translate(-50%, -3%) scale(7); z-index: -1;}
+	
+	100%{transform: translate(-50%, -3%) scale(8); z-index: -1;}
+}
+
+
+
+
