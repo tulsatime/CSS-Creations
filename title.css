@@ -1,0 +1,57 @@
+body{
+	margin: 10px; font-family: verbuna;
+}
+.t1{
+	width: 100%;
+	overflow-x: auto;/*This makes the table not to spill beyond the screen width that would now make it necessary to use the scroll bar  
+	to view the rest of the table. This problem is not encountered in this present table.*/
+	table-layout: fixed; border-bottom: 10px solid red;
+	border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black;
+	border-collapse: collapse;
+}
+/*you can use css to hide empty cells using the syntax:
+empty-cells: hide, show, inherit;* You put the syntax on the main table.
+To do colspan with css, select the td thus: .t1 td(colunm-span,9);
+*/
+
+.span{
+	background-color: black;
+}
+
+
+.t1 tr, .t1 td, .t1 th{
+	border: 1px solid black;
+	padding: 5px
+	
+}
+.t1 th{
+	background-color: gray; color: white;
+}
+.t1 tr:hover{
+	background-color: gray;
+	color: white;
+}
+.left{
+	text-align: left;
+}
+.t1 caption{
+	caption-side: top;
+	font-style: italic;
+}
+.t1 tr:nth-child(even){
+	background-color: lightgray;
+}
+
+
+.t2{
+   width: 80%;
+}
+.t2, .t2 tr, .t2 td, .t2 th{
+	border: 1px solid black;
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+
+
+
+
