@@ -1,0 +1,128 @@
+body{
+	margin: 0px; 
+}
+@font-face{
+	font-family: xtrusion;
+	src: url(../fonts/xtrusion/xtrusion.ttf);
+}
+@font-face{
+	font-family: Tattoo;
+	src: url(../Fonts/starella-tattoo/StarellaTattoo_PERSONAL_USE.ttf);
+}
+/*for fonts*/
+.header-class{
+	text-align: center; font-size: 50px; line-height: 15px;
+	font-family: xtrusion;
+}
+.intro{
+	text-align: center; font-size: 20px;
+	box-shadow: 1px 1px 5px 10px lightgray;
+	width: 30%;
+	position: relative;
+	left: 50%; transform: translate(-50%);
+	background-color: papayawhip; z-index: -1;
+	
+}
+.spa{
+	font-size: 60px; color: papayawhip; text-shadow: 0px 2px 5px gray;
+	font-family: Tattoo;
+}
+/*End of fonts*/
+.one{
+	background-color: #333;
+	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  }
+.one li{
+	list-style-type: none;
+	display: inline;
+	float: left; font-size: 20px;
+}
+.one li .aa, .caption{
+	display: block;
+	text-decoration: none; padding: 15px 40px;
+	background-color: #333;
+	cursor: pointer; color: papayawhip;
+}
+.one .aa:hover, .extension:hover .caption{
+	background-color: black; color: white;
+}
+.active{
+	background-color: red !important;
+}
+
+.list{
+	display: none;
+	box-shadow: 0px 1px 5px gray;
+	width: 200px; position: absolute;
+	font-size: 16px; background-color: white;
+}
+.list a, .caption2{
+	display: block;
+	padding: 10px 5px;
+	box-shadow: 0px 1px 5px gray;
+	text-decoration: none;
+	color: gray; overflow: auto; cursor: pointer;
+}
+.list a:hover, .caption2:hover{
+	background-color: lightgray;
+	color: black;
+}
+.extension:hover .list{
+	display: block;
+}
+/*
+
+.ag{
+	position: absolute;
+	right: 0px;
+}*/
+.list2{
+	position: absolute;
+	left: 200px; top: 190px;
+}
+.extension:hover .list .extension2 .list2{
+	display: none;
+}
+.extension:hover .list .extension2:hover .list2{
+	display: block;
+}
+.list2b{
+	top: 152px
+}
+.extension:hover .list .extension2:hover .list2 .extension3 .list3{
+	display: none;
+}
+.extension:hover .list .extension2:hover .list2 .extension3:hover .list3{
+	display: block;
+}
+.list3{
+	top: 0px
+}
+.list3b{
+	top: 76.5px
+}
+
+.para{
+	width:50%; padding:5px; position:absolute; left: 50%; top:150px; transform: translate(-50%);
+	text-align: justify; box-shadow: 0px 2px 5px 5px lightgray;
+	z-index:-1;
+}
+
+.image-div{
+	margin: 0px; background-color: black; padding-top: 5px;
+}
+.image-div img{
+	width: 19.75%;
+}
+
+@media screen and (max-width:600px){
+	.intro{
+		width: 100%;}
+	li{
+	display: block;
+	width: 100%;
+	}
+	
+}
